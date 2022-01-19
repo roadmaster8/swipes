@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /invite/
+Disallow: /*/invite/
+
+Sitemap: https://www.notion.so/sitemap.xml

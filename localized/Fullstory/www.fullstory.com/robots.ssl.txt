@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.fullstory.com/sitemap.xml
+Host: https://www.fullstory.com
