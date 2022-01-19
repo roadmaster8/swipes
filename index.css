@@ -1,0 +1,318 @@
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('misc/fonts/Proxima-Nova-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-FB04;
+}
+
+
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('misc/fonts/Proxima-Nova-Bold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-FB04;
+}
+
+body {
+	padding: unset !important
+	padding-bottom:70px !important;
+}
+
+.adir {
+	padding: 0px 10px !important;
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	-webkit-font-smoothing: subpixel-antialiased !important;
+}
+
+/***********
+ ***********
+ ***********
+ OVER-RIDE-STYLES
+ ***********
+ ***********
+ ***********/
+
+div.adir table {
+	display: block;
+	width: 600px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.fols,
+.fold,
+.fold+.date {
+	display: none !important;
+}
+
+h1,
+h2,
+h3 {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	width: 620px;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto !important;
+	margin-top: 45px !important;
+	margin-bottom: 8px !important;
+	padding: 0px 7px !important;
+	text-transform: capitalize;
+	background: rgb(255, 255, 255, .2);
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+
+}
+
+
+.file {
+	text-transform: capitalize !important;
+}
+
+.adir table,
+.adir thead,
+.adir tbody {
+	display: block !important;
+}
+
+th,
+tr {
+	display: flex !important;
+	flex-direction: row;
+	width: 100% !important;
+}
+tbody > tr{
+	border-top:1px solid #EDEEEE !important;
+}
+table:first-of-type tbody > tr:nth-child(1),table:first-of-type tbody > tr:nth-child(2){
+	border-top:0px !important;
+}
+td {
+	display: block !important;
+	padding-top: 13px !important;
+	font-size: 15px !important;
+	border:0px !Important;
+}
+td a {
+	color:hsl(207.27, 100%, 43.02%) !important;
+}
+.adir td.size,
+.adir td.col-size {
+	padding-right: 0px !important;
+	min-width: 15% !important;
+	width: 15% !important;
+	text-align: left;
+	opacity: .5
+}
+
+.adir td.file,
+.adir td.col-file {
+	padding-right: 10px;
+	width: 70% !important;
+	min-width: 70% !important;
+}
+
+.adir td.date,
+.adir td.col-date {
+	min-width: 15% !important;
+	width: 15% !important;
+	padding-right: 0px;
+	justify-content: flex-start;
+	text-align: left;
+	opacity: .5
+}
+
+/***********
+ DEFAULT STYLES
+ ***********/
+body {
+	margin: 0;
+	padding: 2em;
+	background-color: white;
+}
+
+.adir * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.adir {
+	font-family: Proxima Nova, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+	color: black;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 0.875em;
+	line-height: 1.5;
+	box-sizing: border-box;
+}
+
+.adir h1 {
+	font-weight: normal;
+	color: black;
+	font-size: 200%;
+}
+
+.adir h2 {
+	font-weight: normal;
+	color: black;
+	font-size: 150%;
+	margin-top: 2em;
+}
+
+.adir h3 {
+	font-weight: normal;
+	color: gray;
+	font-size: 100%;
+}
+
+.adir table {
+	border-spacing: 0;
+	width: 100%;
+	line-height: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	table-layout: fixed;
+	margin: 1em 0;
+}
+
+.adir table>thead>tr>td {
+	padding: 0.5em 2em 0.5em 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-bottom: 1px solid #EEE;
+	font-size: 100%;
+	color: gray;
+}
+
+.adir table>tbody>tr>td {
+	padding: 0.5em 2em 0.5em 0;
+	vertical-align: top;
+	border-bottom: 1px solid #EEE;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.adir table>tbody>tr:nth-child(even) {
+	background-color: #FDFDFD;
+}
+
+.adir a:link {
+	color: steelblue;
+	text-decoration: none;
+}
+
+.adir a:visited {
+	color: steelblue;
+}
+
+.adir a:active {
+	color: steelblue;
+}
+
+.adir a:hover {
+	color: orange;
+}
+
+.adir .col-file {
+	width: 80%;
+}
+
+.adir .col-size {
+	width: 7%;
+}
+
+.adir .col-date {
+	width: 13%;
+}
+
+.adir .col-cust {
+	width: 0;
+}
+
+.adir .file {
+	width: 80%;
+}
+
+.adir .file a:link {}
+
+.adir .file a:visited {}
+
+.adir .file a:active {}
+
+.adir .file a:hover {}
+
+.adir .fold {
+	width: 80%;
+}
+
+.adir .fold a:link {
+	color: steelblue;
+}
+
+.adir .fold a:visited {
+	color: steelblue;
+}
+
+.adir .fold a:active {
+	color: steelblue;
+}
+
+.adir .fold a:hover {
+	color: orange;
+}
+
+.adir .size {
+	width: 7%;
+	text-align: right;
+}
+
+.adir .fols {
+	text-align: right;
+	color: darkgray;
+	width: 7%;
+}
+
+.adir .date {
+	width: 13%;
+}
+
+.adir .cust {
+	width: 0;
+}
+
+.adir .fold .lnkup:link {}
+
+.adir .fold .lnkup:visited {}
+
+.adir .fold .lnkup:active {}
+
+.adir .fold .lnkup:hover {}
+
+.adir .folsup {}
+
+.adir .lnkho:link {}
+
+.adir .lnkho:visited {}
+
+.adir .lnkho:active {}
+
+.adir .lnkho:hover {}
