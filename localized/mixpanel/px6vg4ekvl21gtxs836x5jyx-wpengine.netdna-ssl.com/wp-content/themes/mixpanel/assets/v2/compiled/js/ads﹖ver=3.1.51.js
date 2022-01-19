@@ -1,1 +1,0 @@
-window.canRunAds=!0;

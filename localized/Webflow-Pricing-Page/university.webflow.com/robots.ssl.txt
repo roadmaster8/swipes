@@ -1,5 +1,0 @@
-User-agent: *
-Sitemap: https://university.webflow.com/sitemap.xml
-
-Sitemap: https://university.webflow.com/sitemap.xml
-

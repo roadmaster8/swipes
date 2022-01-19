@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://www.ammo.studio/sitemap.xml
-
-Sitemap: https://www.ammo.studio/sitemap.xml
-
